@@ -40,6 +40,7 @@ To use retry middleware with Faraday v2.0+, install faraday-retry gem
 Error:  Logging at level: debug GitHub Pages: github-pages v232 GitHub Pages: jekyll v3.10.0 Theme: jekyll-theme-primer Theme source: /usr/local/bundle/gems/jekyll-theme-primer-0.6.0 Requiring: jekyll-github-metadata Requiring: jekyll-seo-tag Requiring: jekyll-coffeescript Requiring: jekyll-commonmark-ghpages Requiring: jekyll-gist Requiring: jekyll-github-metadata Requiring: jekyll-paginate Requiring: jekyll-relative-links Requiring: jekyll-optional-front-matter Requiring: jekyll-readme-index Requiring: jekyll-default-layout Requiring: jekyll-titles-from-headings GitHub Metadata: Initializing... Source: /github/workspace/./docs Destination: /github/workspace/./docs/_site Incremental build: disabled. Enable with --incremental Generating... Generating: JekyllOptionalFrontMatter::Generator finished in 1.1511e-05 seconds. Generating: JekyllReadmeIndex::Generator finished in 8.256e-06 seconds. Generating: Jekyll::Paginate::Pagination finished in 3.125e-06 seconds. Generating: JekyllRelativeLinks::Generator finished in 2.4185e-05 seconds. Generating: JekyllDefaultLayout::Generator finished in 1.062e-05 seconds. Generating: JekyllTitlesFromHeadings::Generator finished in 6.301e-06 seconds. Rendering: assets/css/style.scss Pre-Render Hooks: assets/css/style.scss Rendering Markup: assets/css/style.scss github-pages 232 | Error: No such file or directory @ dir_chdir0 - /github/workspace/docs "
 
 ChatGPT said:
+
 The error you're encountering seems to be related to Jekyll trying to process SCSS files but failing to find the necessary directory or files. Specifically, it says No such file or directory @ dir_chdir0 - /github/workspace/docs. This likely indicates a missing or misconfigured directory for your Jekyll project.
 
 Here are some potential solutions to resolve this issue:
@@ -62,4 +63,3 @@ Jekyll Documentation
 "Pro Git" by Scott Chacon and Ben Straub: A free book that provides insight into Git and GitHub workflows.
 "Modern Front-End Development for Jekyll Sites": A guide to enhancing Jekyll projects with modern frontend tools and methodologies.
 Let me know if you need further help in troubleshooting this!
-Here is the image with the text "STA302" prominently displayed.
